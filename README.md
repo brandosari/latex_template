@@ -1,6 +1,9 @@
 # latex_template
 Template per LaTeX, completo di comandi indispensabili per utilizzo in traduzione di documenti su @ventunobtc
 
+
+LINK UTILI:
+
 Raccolta di comandi, simboli ed espressioni utili per LaTeX: https://www.stat.pitt.edu/stoffer/freetex/latex%20commands.pdf
 
 Documentazione Overleaf: https://www.overleaf.com/learn
