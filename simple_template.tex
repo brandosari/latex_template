@@ -1,0 +1,67 @@
+% Semplice layout per documenti LaTeX
+% @brandosari @ventunobtc
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[top=3cm, bottom=3cm, left=3.3cm, right=3.3cm]{geometry}
+\usepackage[onehalfspacing]{setspace}
+
+\title{\textbf{Titolo di esempio in grassetto}}
+\author{Autore}
+\date{January 3, 2009}
+
+\begin{document}
+
+\maketitle
+\section{Esempio} Questa é una sezione di esempio. Per andare a capo con indentazione lascia una linea vuota nel codice sorgente.
+
+In questo modo verrà lasciato automaticamente uno spazio ad inizio riga.   
+
+\paragraph{Paragrafo 1} Questo è un paragrafo. Gerarchicamente si trova sotto la sezione. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta velit non nisi elementum, sagittis cursus nulla eleifend. Pellentesque quis euismod diam, vel aliquam libero. Praesent in iaculis eros.
+
+Puoi sempre andare a capo con indentazione lasciando una linea vuota nel codice sorgente.
+
+\paragraph{} Questo è un paragrafo senza nome. Un nuovo paragrafo lascia sempre una linea vuota. Quisque id sem vel justo finibus hendrerit in in sem.
+\paragraph{Liste} Creiamo una lista:
+\begin{enumerate}
+    \item Elemento 1.
+    \item Elemento 2.
+    \item Per creare una sottolista ripeti il comando all'interno di un elemento:
+    \begin{enumerate}
+        \item Sottoelemento 1.
+        \item Sottoelemento 2.
+    \end{enumerate}
+\end{enumerate}
+\begin{itemize}
+    \item Esistono diversi tipi di liste e sottoliste.
+    \begin{itemize}
+        \item Sottoelemento 3.
+    \end{itemize}
+\end{itemize}
+
+\paragraph{Highlights} Esistono svariati comandi per rendere il testo più leggibile, ne vengono elencati alcuni.
+
+Per evidenziare una frase utilizza: \emph{frase importante}.
+
+%alternativamente usare \textit
+Per rendere in grassetto usa: \textbf{testo in grassetto}.
+
+Per sottolineare usa: \underline{testo sottolineato}.
+
+Per virgolettare utilizza: ''virgolettato'' oppure "virgolettato".
+
+Per creare delle note a pié di pagina utilizza questo comando. \footnote{la nota viene automaticamente aggiunta sulla parola precedente al comando}
+
+\paragraph{Formule matematiche} Ecco alcuni esempi e comandi per scrivere formule matematiche.
+
+Il teorema di Pitagora: $a^2 + b^2 = c^2$
+
+Il teorema di Pitagora, ma a centro pagina: \[a^2 + b^2 = c^2\]
+
+Il teorema di Pitagora, ma a centro pagina e numerato: 
+\begin{equation}
+    a^2 + b^2 = c^2
+\end{equation}
+
+Per una lista completa dei comandi usare un manuale \LaTeX o equivalenti.
+
+\end{document}
