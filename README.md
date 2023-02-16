@@ -1,5 +1,5 @@
 # latex_template
-Template per LaTeX, completo di comandi indispensabili per utilizzo in traduzione di documenti su @ventunobtc.
+Template per LaTeX, completo di comandi indispensabili per utilizzo in traduzione di documenti su @ventunobtc
 
 
 LINK UTILI:
